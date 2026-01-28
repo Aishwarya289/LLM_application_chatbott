@@ -36,12 +36,15 @@ This is a chatbot application powered by a large language model (BlenderBot) usi
 
 ## Project Structure
 LLM_application_chatbot/
-├── app.py # Flask backend
-├── templates/
-│ └── index.html # Frontend HTML
-├── static/
-│ └── script.js # Frontend JS logic
-├── requirements.txt # Python dependencies
+├── app.py                  # Flask backend application
+├── requirements.txt        # Python dependencies
+├── templates/              # HTML templates for Flask
+│   └── index.html          # Main frontend page
+├── static/                 # Static assets for frontend
+│   ├── style.css           # Stylesheet
+│   └── script.js           # Frontend JavaScript
+├── .gitignore              # Git ignore file to exclude venv, __pycache__, etc.
+└── README.md   
 
 
 
@@ -73,5 +76,5 @@ Open your browser at:
 http://127.0.0.1:5000
 
 
-License
+## License
 This project is licensed under the MIT License.
