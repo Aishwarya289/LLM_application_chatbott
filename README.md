@@ -58,7 +58,7 @@ LLM_application_chatbot/
 
 git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
 cd LLM_application_chatbot
-
+```bash
 2️⃣ Create and Activate a Virtual Environment
 Mac / Linux:
 
