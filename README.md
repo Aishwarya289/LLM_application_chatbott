@@ -52,21 +52,21 @@ LLM_application_chatbot/
 ## How to Run
 
 1. Clone the Repository
-git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
-cd LLM_application_chatbot
+-git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
+-cd LLM_application_chatbot
 
 2. Create and Activate a Virtual Environment
 
-For Mac / Linux:
+-For Mac / Linux:
 
-python -m venv venv
-source venv/bin/activate
+-python -m venv venv
+-source venv/bin/activate
 
 
-For Windows (PowerShell):
+-For Windows (PowerShell):
 
-python -m venv venv
-venv\Scripts\activate
+-python -m venv venv
+-venv\Scripts\activate
 
 3. Install Dependencies
 pip install -r requirements.txt
