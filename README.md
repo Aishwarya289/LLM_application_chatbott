@@ -93,6 +93,8 @@ export FLASK_ENV=development
 
 flask run
 
+
+
 Windows (PowerShell):
 
 set FLASK_APP=app.py
