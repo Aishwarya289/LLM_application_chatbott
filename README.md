@@ -51,27 +51,39 @@ LLM_application_chatbot/
 
 ## How to Run
 
-name: "Clone the Repository"
-      commands:
-        - git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
-        - cd LLM_application_chatbot
-    - name: "Create and Activate Virtual Environment"
-      commands:
-        Mac_Linux:
-          - python -m venv venv
-          - source venv/bin/activate
-        Windows_PowerShell:
-          - python -m venv venv
-          - venv\Scripts\activate
-    - name: "Install Dependencies"
-      commands:
-        - pip install -r requirements.txt
-    - name: "Run Flask Application"
-      commands:
-        - flask run
-    - name: "Open in Browser"
-      url: "http://127.0.0.1:5000"
-      description: "Access the chatbot interface"
+## How to Run the Project
+Follow these steps to set up and run the LLM-Powered Chatbot locally.
+
+1. **Clone the Repository**
+```bash
+git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
+cd LLM_application_chatbot
+Create and Activate a Virtual Environment
+Mac / Linux:
+
+python3 -m venv venv
+source venv/bin/activate
+Windows (PowerShell):
+
+python -m venv venv
+venv\Scripts\activate
+Install Dependencies
+
+pip install --upgrade pip
+pip install -r requirements.txt
+Run the Flask Application
+Mac / Linux:
+
+export FLASK_APP=app.py
+export FLASK_ENV=development
+flask run
+Windows (PowerShell):
+
+set FLASK_APP=app.py
+set FLASK_ENV=development
+flask run
+Open in Browser
+Go to: http://127.0.0.1:5000 to see the chatbot interface and start interacting with it.
 
 ## License
 This project is licensed under the MIT License.
