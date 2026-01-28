@@ -29,8 +29,8 @@ This is a chatbot application powered by a large language model (BlenderBot) usi
 
 
 ## Screenshot
-![Chatbot Screenshot](C:\Users\aishw\Documents\Masters\AI certificate\ChatBot\LLM_application_chatbot\chatbotexample.png)  
-*Example of a conversation with the chatbot*  
+<img width="1914" height="1018" alt="Screenshot 2026-01-28 142700" src="https://github.com/user-attachments/assets/8bafa804-a27d-4b59-899f-d711cb3140ba" />
+  
 
 
 
