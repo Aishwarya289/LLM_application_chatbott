@@ -55,7 +55,6 @@ LLM_application_chatbot/
 Follow these steps to set up and run the LLM-Powered Chatbot locally.
 
 ### Clone the Repository
-```bash
 git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
 cd LLM_application_chatbot
 
