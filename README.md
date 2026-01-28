@@ -88,6 +88,6 @@ flask run
 5. Open in Browser
 Go to: http://127.0.0.1:5000 to see the chatbot interface and start interacting with it.
 
----
+```bash
 ## License
 This project is licensed under the MIT License.
