@@ -64,27 +64,42 @@ cd LLM_application_chatbot
 Mac / Linux:
 
 python3 -m venv venv
+
 source venv/bin/activate
+
+
 Windows (PowerShell):
 
 python -m venv venv
+
+
 venv\Scripts\activate
 
  ### Install Dependencies
 
 pip install --upgrade pip
+
 pip install -r requirements.txt
+
+
 ### Run the Flask Application
 Mac / Linux:
 
 export FLASK_APP=app.py
+
+
 export FLASK_ENV=development
+
+
 flask run
 
 Windows (PowerShell):
 
 set FLASK_APP=app.py
+
 set FLASK_ENV=development
+
+
 flask run
 
 ### Open in Browser
