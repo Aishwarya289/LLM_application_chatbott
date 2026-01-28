@@ -37,6 +37,7 @@ This is a chatbot application powered by a large language model (BlenderBot) usi
 ## Project Structure
 
 The project follows a standard Flask + LLM setup with separate folders for templates, static assets, and optional helpers.
+<img width="327" height="615" alt="folderstructure" src="https://github.com/user-attachments/assets/eb610270-34e4-4784-bfc7-eccbfd4311b4" />
 
 
 
