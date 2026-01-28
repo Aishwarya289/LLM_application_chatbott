@@ -39,22 +39,8 @@ This is a chatbot application powered by a large language model (BlenderBot) usi
 The project follows a standard Flask + LLM setup with separate folders for templates, static assets, and optional helpers.
 
 LLM_application_chatbot/
-├── app.py                  # Main Flask backend application
-├── requirements.txt        # Python dependencies for recreating environment
-├── templates/              # HTML templates for Flask frontend
-│   └── index.html          # Main frontend page
-├── static/                 # Static frontend assets
-│   ├── style.css           # Stylesheet
-│   └── script.js           # Frontend JavaScript
-├── venv/                   # Python virtual environment (should be in .gitignore)
-├── .gitignore              # Git ignore file to exclude venv, __pycache__, and other unnecessary files
-└── README.md               # Project documentation
 
-**Notes:**
-- Do not commit `venv/` to GitHub.  
-- Keep `requirements.txt` updated with:  
-  ```bash
-  pip freeze > requirements.txt
+
 
 
 
@@ -62,6 +48,7 @@ LLM_application_chatbot/
 Follow these steps to set up and run the LLM-Powered Chatbot locally.
 
 ### Clone the Repository
+  ```bash
 git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
 
 
