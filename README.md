@@ -54,20 +54,25 @@ LLM_application_chatbot/
 ## How to Run the Project
 
 1️⃣ Clone the Repository
-'''bash
+```bash
+
 git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
 cd LLM_application_chatbot
 
 2️⃣ Create and Activate a Virtual Environment
 Mac / Linux:
+```bash
 
 python -m venv venv
 source venv/bin/activate
 Windows (PowerShell):
+```bash
 
 python -m venv venv
 venv\Scripts\activate
 3️⃣ Install Dependencies
+```bash
+
 pip install -r requirements.txt
 4️⃣ Run the Application
 flask run
