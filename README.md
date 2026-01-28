@@ -36,8 +36,14 @@ This is a chatbot application powered by a large language model (BlenderBot) usi
 
 ## Project Structure
 LLM_application_chatbot/
+
+
 ├── app.py                  # Main Flask backend application
+
+
 ├── requirements.txt        # Python dependencies for recreating environment
+
+
 ├── templates/              # HTML templates for Flask frontend
 │   └── index.html          # Main frontend page
 ├── static/                 # Static frontend assets
