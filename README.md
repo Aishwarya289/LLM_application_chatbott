@@ -67,14 +67,14 @@ git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbo
 cd LLM_application_chatbot
 
 ### Create and Activate a Virtual Environment
-Mac / Linux:
+### Mac / Linux:
 
 python3 -m venv venv
 
 source venv/bin/activate
 
 
-Windows (PowerShell):
+### Windows (PowerShell):
 
 python -m venv venv
 
@@ -89,7 +89,7 @@ pip install -r requirements.txt
 
 
 ### Run the Flask Application
-Mac / Linux:
+### Mac / Linux:
 
 export FLASK_APP=app.py
 
@@ -101,7 +101,7 @@ flask run
 
 
 
-Windows (PowerShell):
+### Windows (PowerShell):
 
 set FLASK_APP=app.py
 
