@@ -39,23 +39,14 @@ LLM_application_chatbot/
 
 
 ├── app.py                  # Main Flask backend application
-
 ├── requirements.txt        # Python dependencies for recreating environment
-
 ├── templates/              # HTML templates for Flask frontend
-
 │   └── index.html          # Main frontend page
-
 ├── static/                 # Static frontend assets
-
 │   ├── style.css           # Stylesheet
-
 │   └── script.js           # Frontend JavaScript
-
 ├── venv/                   # Python virtual environment (should be in .gitignore)
-
 ├── .gitignore              # Git ignore file to exclude venv, __pycache__, and other unnecessary files
-
 └── README.md               # Project documentation
 
 
