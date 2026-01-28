@@ -52,10 +52,10 @@ LLM_application_chatbot/
 ## How to Run
 
 1. Clone the Repository
--git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
--cd LLM_application_chatbot
+git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
+cd LLM_application_chatbot
 
-2. Create and Activate a Virtual Environment
+3. Create and Activate a Virtual Environment
 
 -For Mac / Linux:
 
