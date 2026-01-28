@@ -55,18 +55,18 @@ LLM_application_chatbot/
 git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
 cd LLM_application_chatbot
 
-3. Create and Activate a Virtual Environment
+2. Create and Activate a Virtual Environment
 
--For Mac / Linux:
+For Mac / Linux:
 
--python -m venv venv
--source venv/bin/activate
+python -m venv venv
+source venv/bin/activate
 
 
--For Windows (PowerShell):
+For Windows (PowerShell):
 
--python -m venv venv
--venv\Scripts\activate
+python -m venv venv
+venv\Scripts\activate
 
 3. Install Dependencies
 pip install -r requirements.txt
@@ -79,7 +79,6 @@ flask run
 Go to:
 
 http://127.0.0.1:5000
-
 
 ## License
 This project is licensed under the MIT License.
