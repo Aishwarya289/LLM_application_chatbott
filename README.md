@@ -38,7 +38,6 @@ This is a chatbot application powered by a large language model (BlenderBot) usi
 
 The project follows a standard Flask + LLM setup with separate folders for templates, static assets, and optional helpers.
 
-LLM_application_chatbot/
 
 
 
@@ -48,7 +47,7 @@ LLM_application_chatbot/
 Follow these steps to set up and run the LLM-Powered Chatbot locally.
 
 ### Clone the Repository
-  ```bash
+ 
 git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot.git
 
 
