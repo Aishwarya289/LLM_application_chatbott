@@ -54,6 +54,7 @@ LLM_application_chatbot/
 
 git clone https://github.com/ibm-developer-skills-network/LLM_application_chatbot
 cd LLM_application_chatbot
+
 Create and activate a virtual environment:
 Mac / Linux:
 
@@ -71,8 +72,8 @@ pip install -r requirements.txt
 3. Run the application locally:
 
 flask run
-Open your browser at:
 
+Open your browser at:
 http://127.0.0.1:5000
 
 
